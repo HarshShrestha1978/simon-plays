@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <button type="button" id="open">
+            <h3 style="display: inline;">How to play</h3>
+        </button>
+        <aside class="description hide">
+            <button type="button" class="hide" id="close">x</button>
+            <h3>How to play</h3>
+            <ul>
+                <li>Press any key to start the game.</li>
+                <li>A random sequence of colored button flashes and sounds will be generated.</li>
+                <li>Observe the pattern carefully and remember the sequence.</li>
+                <li>Reproduce the sequence by clicking the buttons in the correct order.</li>
+                <li>If you repeat the sequence correctly, a new color is added to the pattern.</li>
+                <li>Continue playing, repeating increasingly complex sequences.</li>
+                <li>If you make a mistake, the game ends, and your score is displayed.</li>
+                <li>Improve memory, concentration, and pattern recognition skills with each play.</li>
+            </ul>
+            <h3>***All the best****</h3>
+        </aside>
+    </div>
+    <div class="main">
+        <main>
+            <h1 class="heading">Simon Says Game</h1>
+            <h3 class="highest-score">highest score : <span class="score">0</span> </h3>
+            <h2 class="game-status">Press any key to start</h2>
+            <div class="game">
+                <div class="line">
+                    <div class="btn red" type="button" id="red"></div>
+                    <div class="btn green" type="button" id="green"></div>
+                </div>
+                <div class="line">
+                    <div class="btn yellow" type="button" id="yellow"></div>
+                    <div class="btn blue" type="button" id="blue"></div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

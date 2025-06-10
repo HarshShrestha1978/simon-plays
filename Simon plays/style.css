@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+body{
+    margin-top:0;
+    text-align: center;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line {
+    display: flex;
+}
+.btn{
+    height:200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 1rem;
+}
+.red{
+    background-color:#d95980;
+}
+.green{
+    background-color:#63aac0;
+}
+.yellow{
+    background-color:#f99b45;
+}
+.blue{
+    background-color: #819ff9;
+}
+.flash{
+    background-color: white;
+}
+.danger{
+    background-color: red;
+}
+.userflash{
+    background-color: green;
+}
+.sidebar{
+    transition: all 1s ease-in;
+}
+.description{
+    position: absolute;
+    left: 0;
+    /* margin: auto; */
+    width:25%;
+    height: 100vh;
+    background-color:aliceblue;
+    padding: 1rem;
+    text-align: left;
+}
+.description h3{
+    text-align: center;
+    margin: 1rem;
+}
+.description li{
+    margin: 1rem;
+}
+.hide{
+    display: none;
+}
+#close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #819ff9;
+    border: 1px solid;
+    /* border-radius: 50%; */
+}
+#open{
+     background-color: #819ff9;
+    border: 1px solid;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+@media (max-width: 1100px) {
+    .description {
+        display: none;
+    }
+}
